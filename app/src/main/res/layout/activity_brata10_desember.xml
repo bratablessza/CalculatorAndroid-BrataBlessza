@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgrey"
+    android:orientation="vertical"
+    tools:context=".Brata10Desember">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="643dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cacluback" />
+
+    <TableLayout
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#F1F8E9"
+
+        android:gravity="center|center_horizontal|center_vertical"
+        android:orientation="vertical"
+        app:circularflow_defaultRadius="40dp"
+        app:circularflow_radiusInDP="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/displayHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif-thin"
+                android:textAlignment="viewStart"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/displayInput"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="4"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="           0"
+                android:outlineAmbientShadowColor="@color/black"
+                android:textAlignment="textEnd"
+                android:textColorHint="@color/darkgrey"
+
+                android:textSize="22sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/displayOutput"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|center_horizontal|center_vertical"
+                android:layout_weight="4"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:hint="Result"
+                android:textAlignment="textEnd"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="12dp"
+                android:text="@string/tujuh" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:text="@string/lapan" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="@string/sembilan" />
+
+            <Button
+                android:id="@+id/buttonreset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:text="@string/reset" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="12dp"
+                android:text="@string/empat" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:text="@string/lima" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="@string/enam" />
+
+            <Button
+                android:id="@+id/buttonbagi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:text="@string/bagi" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="12dp"
+                android:text="@string/satu" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:text="@string/dua" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="@string/tiga" />
+
+            <Button
+                android:id="@+id/buttonkali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:text="@string/kali" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="12dp"
+                android:text="@string/nol" />
+
+            <Button
+                android:id="@+id/buttontambah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="12dp"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:text="@string/tambah" />
+
+            <Button
+                android:id="@+id/buttonkurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:text="@string/kurang" />
+
+            <Button
+                android:id="@+id/buttonequals"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-10dp"
+                android:layout_marginRight="12dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/teal_200"
+                android:text="@string/equals" />
+
+        </TableRow>
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

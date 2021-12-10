@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+    <VideoView
+        android:id="@+id/videobackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Main Menu"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="Ini menu ujian brata"
+        android:textAlignment="center"
+        android:textColor="#FBF9F9"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="113dp"
+        android:layout_height="38dp"
+        android:layout_marginBottom="48dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Go Back"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:backgroundTint="#B22222"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnUjian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="208dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Exam 10 December"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="208dp"
+        android:fontFamily="sans-serif-light"
+        android:text="exam 17 December"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
